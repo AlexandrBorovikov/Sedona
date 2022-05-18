@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Sedona form</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="logo-container">
+        <div class="wrap-logo">  
+          <picture class="logo-desktop">
+            <source media="(min-width: 1025px)" srcset="/assets/images/logotype-desktop.svg">
+            <img src="/assets/images/logotype-tablet.svg.svg">
+          </picture>
+        </div>
+        
+      </div>
+
+        <ul class="navigation-list">
+            <ul class="left-nav">
+              <li class="list-nav"><a class="link-nav " href="/index.html">Главная</a></li>
+              <li class="list-nav"><a class="link-nav " href="/foto.html">ФОТО И ВИДЕО</a></li>
+            </ul>
+
+            <ul class="right-nav">
+              <li class="list-nav"><a class="link-nav activ" href="/form.html">Форма отзыва</a></li>
+              <li class="list-nav"><a class="link-nav" href="#">HTML academy</a></li>
+            </ul>
+            <li class="burger-btn">
+              <button class="menu-open"></button>
+            </li>
+   
+        </ul>
+
+
+        <ul class="navigation-list-mobile">
+            <ul class="left-nav-mobile">
+              <li class="list-nav-mobile list-nav-mobile--btn"><a class="link-nav-mobile" href="/index.html">Главная</a> <button class="menu-close"></button></li>
+              <li class="list-nav-mobile"><a class="link-nav-mobile" href="/foto.html">ФОТО И ВИДЕО</a></li>
+            </ul>
+
+            <ul class="right-nav-mobile">
+              <li class="list-nav-mobile"><a class="link-nav-mobile" href="/form.html">Форма отзыва</a></li>
+              <li class="list-nav-mobile"><a class="link-nav-mobile" href="#">HTML academy</a></li>
+            </ul>
+
+   
+        </ul>
+        
+    </nav>
+    <div class="intro-foto">
+        <div class="tagline">
+          <picture class="intro-picture">
+            <source media="(min-width:701px )" srcset="/assets/images/SEDONA.png">
+            <img src="/assets/images/SEDONA-mobile.png" alt="">
+          </picture>
+        </div> 
+    </div>
+  </header>
+
+  <main>
+    <div class="text-media">
+      <h2>Оставьте свой отзыв</h2>
+      <p>Помогите нашим отелям стать лучше! оставьте отзыв о них,
+        а также о посещенных вами достопримечательностях</p>
+    </div>
+
+    <form class="wrapper">
+      <div class="form-group">
+        <div class="impression">
+          <h3>ВАше Общее впечатление:</h3>
+          <label class="check">
+            <input name="impress" type="radio" value="good" checked/>
+            <span></span>
+            Скорее положительное
+          </label>
+          <label class="check">
+            <input name="impress" type="radio" value="nogood"/>
+            <span></span>
+            Скорее отрицательное
+          </label>
+          <label class="check">
+            <input name="impress" type="radio" value="doubt"/>
+            <span></span>
+            Затрудняюсь ответить
+          </label>
+        </div>
+
+       
+
+        <div class="profile">
+          <h3>Представьтесь:</h3>
+          <p>
+            <label for="first-name">ИМЯ*:</label>
+            <input name="name" id="first-name" type="text" required placeholder="Петр">
+          </p>
+          <p>
+            <label for="second-name">ФАМИЛИЯ*:</label>
+            <input name="secondName" id="second-name" type="text" required placeholder="Иванов">
+          </p>
+          <p>
+            <label for="patronymic">Отчество:</label>
+            <input name="patronymic" id="patronymic" type="text" placeholder="Александрович">
+          </p>
+        </div>
+      
+
+        <div class="contact-info">
+          <h3 class="amid">Контактная информация:</h3>
+          <div class="contacts">
+            <div class="contacts-wrap">
+              <label><span class="contacts-phone">Контактный</span> Телефон*:</label>
+              <div class="contacts-inner">
+                <input type="text" name="phone" required placeholder="Введите телефон">
+                <img class="contact-icon" src="/assets/images/phone.svg.svg" alt="">
+              </div>
+            </div>
+            <div class="contacts-wrap">
+              <label>Электронная почта*:</label>
+              <div class="contacts-inner">
+                <input type="email" name="email" required placeholder="Введите e-mail">
+                <img class="contact-icon" src="/assets/images/mail.svg.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="visited">
+        <h3 class="amid">Посещенные достопримечательности:</h3>
+        <div class="attraction">
+          <div class="check-box-wrap">
+            <label class="check-box">
+              <input name="bridge" type="checkbox" checked>Мост Дьявола
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="check-box-wrap">
+            <label class="check-box">
+              <input name="mount" type="checkbox" checked>Гора-Колокол
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="check-box-wrap">
+            <label class="check-box">
+              <input name="park" type="checkbox" checked>Слайд-парк
+              <span></span>
+            </label>
+          </div>
+
+          <div class="check-box-wrap">
+            <label class="check-box">
+              <input name="rocks" type="checkbox">Красные скалы
+              <span></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="emotion">
+        <h3 class="amid">Опишите свои эмоции:</h3>
+        <p>
+          <textarea name="comment" class="comment" placeholder="Опишите подробно все свои восторги "></textarea>
+        </p>
+      </div>
+
+      <div class="sender">
+        <button class="btn btn-submit" type="submit">ОТПРАВИТЬ ОТЗЫВ</button>
+        <p class="condition">* — обязательные поля</p>
+      </div>
+    </form>
+
+  </main>
+
+  <div class="wrapper-success">
+    <div class="success-popup">
+      <div class="success-text">
+        <div class="inner-success-text">
+          <h3>Ваш отзыв отправлен!</h3>
+          <p>Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+        </div>
+      </div>
+      <div class="success-btn">
+        <button class="btn btn-popup" type="button">ЗАКРЫТЬ ОКНО</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper-fail">
+    <div class="fail-popup">
+      <div class="fail-text">
+        <h3>Что-то пошло не так!</h3>
+        <p>Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+      </div>
+      <div class="fail-btn">
+        <button class="btn btn-popup" type="button">OK</button>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="main-footer">
+    <p class="footer-tag">#visitSEDONA</p>
+    <div class="footer-social">
+        <ul>
+            <li><a class="social-icon" href="#"><img src="/assets/images/icon-twitter.svg" alt=""> </a></li>
+            <li><a class="social-icon" href="#"><img src="/assets/images/icon-facebook.svg" alt=""></a></li>
+            <li><a class="social-icon" href="#"><img src="/assets/images/icon-youtube.svg" alt=""></a></li>
+        </ul>
+    </div>
+    <div class="footer-copy">
+        <p>Разработано</p>
+        <a class="copy-icon" href="#"><svg width="27" height="35" viewBox="0 0 27 35" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z" fill="black"/>
+          </svg></a>
+    </div>
+  </footer>
+
+  <script src="/main.js"></script>
+      
+  </body>
