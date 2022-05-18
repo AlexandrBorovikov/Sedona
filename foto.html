@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sedona-foto</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+          <div class="logo-container">
+            <div class="wrap-logo">  
+              <picture class="logo-desktop">
+                <source media="(min-width: 1025px)" srcset="/assets/images/logotype-desktop.svg"  1x>
+                <img src="/assets/images/logotype-tablet.svg.svg" 1x>
+              </picture>
+            </div>
+            
+          </div>
+
+            <ul class="navigation-list">
+                <ul class="left-nav">
+                  <li class="list-nav"><a class="link-nav" href="/index.html">Главная</a></li>
+                  <li class="list-nav"><a class="link-nav activ" href="/foto.html">ФОТО И ВИДЕО</a></li>
+                </ul>
+
+                <ul class="right-nav">
+                  <li class="list-nav"><a class="link-nav" href="/form.html">Форма отзыва</a></li>
+                  <li class="list-nav"><a class="link-nav" href="#">HTML academy</a></li>
+                </ul>
+                <li class="burger-btn">
+                  <button class="menu-open"></button>
+                </li>
+       
+            </ul>
+
+
+            <ul class="navigation-list-mobile">
+                <ul class="left-nav-mobile">
+                  <li class="list-nav-mobile list-nav-mobile--btn"><a class="link-nav-mobile" href="/index.html">Главная</a> <button class="menu-close"></button></li>
+                  <li class="list-nav-mobile"><a class="link-nav-mobile" href="/foto.html">ФОТО И ВИДЕО</a></li>
+                </ul>
+
+                <ul class="right-nav-mobile">
+                  <li class="list-nav-mobile"><a class="link-nav-mobile" href="/form.html">Форма отзыва</a></li>
+                  <li class="list-nav-mobile"><a class="link-nav-mobile" href="#">HTML academy</a></li>
+                </ul>
+
+       
+            </ul>
+            
+        </nav>
+        <div class="intro-foto">
+            <div class="tagline">
+              <picture class="intro-picture">
+                <source media="(min-width:701px )" srcset="/assets/images/SEDONA.png">
+                <img src="/assets/images/SEDONA-mobile.png" alt="">
+              </picture>
+            </div> 
+        </div>
+    </header>
+
+<main>
+  <div class="text-media">
+    <h2>Фото и видео</h2>
+    <p>Не можете решиться на путешествие из-за курса?<br> Фотографии помогут вам забыть о политике и экономике.</p>
+  </div>
+
+  <div class="gallery">
+    <div class="gallery-inner">
+      <picture class="gallery-picture">
+        <source media="(min-width:801px)" srcset="/assets/images/photo-1-desktop.jpg.jpg">
+        <source media="(min-width:601px)" srcset="/assets/images/photo-1-tablet.jpg">
+        <img src="/assets/images/photo-1-mobile.jpg" alt="">
+      </picture>
+      <div class="foto-name">
+        <div class="name-container">
+          <h3>неродные просторы</h3>
+          <p>Автор фото: Борис</p>
+        </div>
+        <div class="like-container">
+          <button class="btn-like" type="button">
+            <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="svg-like"  d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="white"/>
+            </svg>
+          </button>
+          <p class="foto-like">1350</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-inner2">
+      <div class="gallery-foto">
+        <img class="gallery-foto-img" src="/assets/images/photo-2-desktop.jpg.jpg" alt="">
+        <div class="foto-name">
+          <div class="name-container">
+            <h3>Местная растительность</h3>
+            <p>Автор фото: Сергей</p>
+          </div>
+          <div class="like-container">
+            <button class="btn-like" type="button">
+              <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-like" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="white"/>
+              </svg>
+            </button>
+            <p class="foto-like">143</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-foto">
+        <img class="gallery-foto-img" src="/assets/images/photo-3-desktop.jpg.jpg" alt="">
+        <div class="foto-name foto-name--dark">
+          <div class="name-container">
+            <h3>Дорога на север</h3>
+            <p>Автор фото: Петр</p>
+          </div>
+          <div class="like-container">
+            <button class="btn-like" type="button">
+              <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-like" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="white"/>
+              </svg>
+            </button>
+            <p class="foto-like">96</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-foto">
+        <img class="gallery-foto-img" src="/assets/images/photo-4-desktop.jpg.jpg" alt="">
+        <div class="foto-name">
+          <div class="name-container">
+            <h3>Мост дьявола</h3>
+            <p>Автор фото: Антон</p>
+          </div>
+          <div class="like-container">
+            <button class="btn-like" type="button">
+              <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="svg-like" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="white"/>
+              </svg>
+            </button>
+            <p class="foto-like">254</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-media">
+    <h2>Все еще сомневаетесь?</h2>
+    <p>Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+  </div>
+
+  <div class="video">
+
+    <video class="video-item" preload="none"  controls poster="/assets/images/poster-video.jpg" src="/assets/videos/Sedona-Arizona .mp4"></video>
+  </div>
+</main>
+<footer class="main-footer">
+  <p class="footer-tag">#visitSEDONA</p>
+  <div class="footer-social">
+      <ul>
+          <li><a class="social-icon" href="#"><img src="/assets/images/icon-twitter.svg" alt=""> </a></li>
+          <li><a class="social-icon" href="#"><img src="/assets/images/icon-facebook.svg" alt=""></a></li>
+          <li><a class="social-icon" href="#"><img src="/assets/images/icon-youtube.svg" alt=""></a></li>
+      </ul>
+  </div>
+  <div class="footer-copy">
+      <p>Разработано</p>
+      <a class="copy-icon" href="#"><svg width="27" height="35" viewBox="0 0 27 35" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z" fill="black"/>
+        </svg></a>
+  </div>
+</footer>
+
+
+<script src="/main.js"></script>
+    
+</body>
+</html>
