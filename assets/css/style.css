@@ -102,7 +102,7 @@ a {
 }
 
 .intro {
-  background-image: url(/assets/images/back-desktopp.jpg) ;
+  background-image: url(assets/images/back-desktopp.jpg) ;
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1200px;
@@ -412,7 +412,7 @@ a {
 /* Foto */
 
 .intro-foto {
-  background-image:url(/assets/images/back-desktopp-foto.jpg);
+  background-image:url(assets/images/back-desktopp-foto.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1200px;
@@ -547,7 +547,6 @@ a {
 .impression {
   display: block;
   align-items: center;
-  /* margin-right: 100px; */
 }
 .impression h3 {
   margin-bottom: 65px;
@@ -611,8 +610,7 @@ a {
 .profile {
   box-sizing: border-box;
   display: block;
-  width: 40%;
-  
+  width: 40%; 
 }
 .profile h3 {
   margin-bottom: 45px;
@@ -1063,11 +1061,9 @@ label {
 
   .svg-like {
     fill: rgba(0,0,0,0.3 );
-    
   }
 
   /* Form Tablet */
-
 
   .contacts {
     display: block;
@@ -1116,10 +1112,7 @@ label {
   .impression h3 {
     margin-left: 0;
   }
-
 }
-
-
 
 /* Mobile */
 
@@ -1142,7 +1135,6 @@ label {
 
   .navigation-list-js {
     display: block;
-    
   }
 
   .left-nav-mobile,
@@ -1185,7 +1177,7 @@ label {
     border: none;
     outline: none;
     background: #FFFFFF;
-    background-image: url(/assets/images/icon-menu-open.svg);
+    background-image: url(assets/images/icon-menu-open.svg);
     background-repeat: no-repeat;
     background-position: center;
     margin-left: auto;
@@ -1206,7 +1198,7 @@ label {
     border: none;
     outline: none;
     background-color:#81B3D2;
-    background-image: url(/assets/images/icon-menu-close.png);
+    background-image: url(assets/images/icon-menu-close.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-left: auto;
@@ -1237,7 +1229,7 @@ label {
     padding: 60px 0;
   }
   .discription .discription-text{
-    background-image: url(/assets/images/white\ copy-mobile.png);
+    background-image: url(assets/images/white\ copy-mobile.png);
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 80px;
@@ -1293,7 +1285,7 @@ label {
   /* Form Mobile */
 
   .intro-foto {
-    background-image: url(/assets/images/back-mobile-foto.jpg);
+    background-image: url(assets/images/back-mobile-foto.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1200px;
@@ -1362,9 +1354,6 @@ label {
   .emotion {
     border-top: 1px solid #E5E5E5;
   }
-
-
-
 }
 
 
@@ -1551,10 +1540,7 @@ label {
     font-size: 18px;
     line-height: 26px;
   }
-
-
 }
-
 
 
 /* JS */
@@ -1563,5 +1549,3 @@ label {
 .svg-like-active {
   fill: red;
 }
-
-
