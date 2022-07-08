@@ -2,7 +2,6 @@ const menuBtn = document.querySelector('.burger-btn');
 const closeBtn = document.querySelector('.menu-close')
 const likeBtn = document.querySelectorAll('.btn-like')
 
-
 const func = function(elem, params, className,) {
 	elem.classList[params](className);
 }
@@ -32,7 +31,6 @@ for (let index = 0; index < likeBtn.length; index++) {
 		func(svgLike, 'add', 'svg-like-active');
 	})
 }
-
 
 //  page Form
 
@@ -90,17 +88,3 @@ for (let i = 0; i < btnPopup.length; i++) {
 	})
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
